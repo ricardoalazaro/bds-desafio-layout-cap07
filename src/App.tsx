@@ -1,8 +1,11 @@
+import './assets/styles/custom.scss';
 import './App.css';
 
-function App() {
+import Routes from 'Routes';
+
+const App = () => {
   return (
-    <h1>text</h1>
+    <Routes />
   );
 }
 
